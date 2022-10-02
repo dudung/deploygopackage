@@ -1,3 +1,7 @@
+# steps
+some learning steps in publishing a go package to github (not yet work)
+
+
 ## create a new repository
 1. Login to a GitHub account through <https://github.com/login>.
 2. Create a new repository using + icon or <https://github.com/new>.
@@ -203,24 +207,48 @@
           go get github.com/dudung/deploygopackage
   ```
 7. Commits files.
-```shell
-/l/home/deploygopackage/test (main)
-$ git commit -a -m "update steps.md"
-[main b341b08] update steps.md
- 1 file changed, 85 insertions(+), 1 deletion(-)
+  ```shell
+  /l/home/deploygopackage/test (main)
+  $ git commit -a -m "update steps.md"
+  [main b341b08] update steps.md
+   1 file changed, 85 insertions(+), 1 deletion(-)
 
-/l/home/deploygopackage/test (main)
-$ git add ./
-warning: LF will be replaced by CRLF in test/go.mod.
-The file will have its original line endings in your working directory
+  /l/home/deploygopackage/test (main)
+  $ git add ./
+  warning: LF will be replaced by CRLF in test/go.mod.
+  The file will have its original line endings in your working directory
 
-/l/home/deploygopackage/test (main)
-$ git commit -a -m "include unknown files"
-[main 76c27bb] include unknown files
- 2 files changed, 14 insertions(+)
- create mode 100644 test/go.mod
- create mode 100644 test/index.go
-```
+  /l/home/deploygopackage/test (main)
+  $ git commit -a -m "include unknown files"
+  [main 76c27bb] include unknown files
+   2 files changed, 14 insertions(+)
+   create mode 100644 test/go.mod
+   create mode 100644 test/index.go
+
+  /l/home/deploygopackage/test (main)
+  $ git commit -a -m "update steps.md"
+  [main a55fbac] update steps.md
+   1 file changed, 23 insertions(+), 1 deletion(-)
+
+  /l/home/deploygopackage/test (main)
+  $ git status
+  On branch main
+  Your branch is ahead of 'origin/main' by 3 commits.
+    (use "git push" to publish your local commits)
+
+  nothing to commit, working tree clean
+  ```
 8. Push commit.
-```shell
-```
+  ```shell
+  /l/home/deploygopackage/test (main)
+  $ git push
+  Enumerating objects: 13, done.
+  Counting objects: 100% (13/13), done.
+  Delta compression using up to 4 threads
+  Compressing objects: 100% (10/10), done.
+  Writing objects: 100% (11/11), 1.95 KiB | 333.00 KiB/s, done.
+  Total 11 (delta 5), reused 0 (delta 0), pack-reused 0
+  remote: Resolving deltas: 100% (5/5), completed with 2 local objects.
+  To https://github.com/dudung/deploygopackage
+     3f2d799..a55fbac  main -> main
+  ```
