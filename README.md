@@ -40,7 +40,8 @@ index.go:5:3: no required module provides package github.com/dudung/deploygopack
 ```
 + Contact Chaudhary with following message.
   
-  > Should we first clone the GitHub repository or `git init` before we can use `git add .`? I am following your instructions, perhaps I miss something, and get the message `fatal: not a git repository (or any of the parent directories): .git`. Any clue would be very helpful. Thank you.
+  > Should we first clone the GitHub repository or `git init` before we can use `git add .`? I am following your instructions, perhaps I miss something, and get the message `fatal: not a git repository (or any of the parent directories): .git`. Any clue would be very helpful. Thank you. https://github.com/dudung/deploygopackage
+  
 
 ## refs
 + Shreya Chaudhary, "Creating and Deploying your First Go Package", Towards Data Science, 22 May 2022, url <https://towardsdatascience.com/eae220905745> [20221002].
