@@ -202,3 +202,25 @@
   index.go:5:3: no required module provides package github.com/dudung/deploygopackage; to add it:
           go get github.com/dudung/deploygopackage
   ```
+7. Commits files.
+```shell
+/l/home/deploygopackage/test (main)
+$ git commit -a -m "update steps.md"
+[main b341b08] update steps.md
+ 1 file changed, 85 insertions(+), 1 deletion(-)
+
+/l/home/deploygopackage/test (main)
+$ git add ./
+warning: LF will be replaced by CRLF in test/go.mod.
+The file will have its original line endings in your working directory
+
+/l/home/deploygopackage/test (main)
+$ git commit -a -m "include unknown files"
+[main 76c27bb] include unknown files
+ 2 files changed, 14 insertions(+)
+ create mode 100644 test/go.mod
+ create mode 100644 test/index.go
+```
+8. Push commit.
+```shell
+```
